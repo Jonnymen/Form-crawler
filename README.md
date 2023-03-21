@@ -1,8 +1,8 @@
 # Form-crawler
 Identify forms on website
 
-
-`usage: form_crawler.py [-h] [-d DEPTH] [-v VERBOSE] [--same-domain] [--no-same-domain] [-o OUTPUT] url
+```
+usage: form_crawler.py [-h] [-d DEPTH] [-v VERBOSE] [--same-domain] [--no-same-domain] [-o OUTPUT] url
 
 Identify forms on a website.
 
@@ -21,4 +21,5 @@ options:
   --same-domain         whether to stay on the same domain or not (default)
   --no-same-domain      whether to stay on the same domain or not
   -o OUTPUT, --output OUTPUT
-                        Save output to file, provide filename`
+                        Save output to file, provide filename
+```
